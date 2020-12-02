@@ -1,0 +1,363 @@
+<!DOCTYPE HTML>
+ <HTML>
+<HEAD>
+
+<TITLE>Am Guitar Chord - Guitar Chords Chart - 8notes.com</TITLE>
+
+<META name="description" content="Am Guitar Chord - Guitar Chords Chart - 8notes.com">
+<style>
+@media all and ( max-width: 36em )
+{ .gbox {margin: 0!important;width: 300px!important;padding: 0!important;}}
+.elink{float:right;margin-top: 20px;color:#c0c0c0}
+.pbut{text-decoration:none; height:40px!important;margin-left: 18px}
+    .pbut img {border: 0;height: 28px}
+a.alphabet2_selected{background-color:#ffa100!important;color:#5a5a5a!important}
+table.piano_table{border-collapse: collapse;  width:175px }
+table.piano_table td{padding:0;margin:0;text-align: center}
+.piano_table img {height: 28px;width:20px;}
+.g2{float:left;margin:20px;height:250px}
+    .alsoknown{font-style: italic;font-size: 0.6em;    }
+</style>
+<script language="javascript">
+      var touchon
+    function dodo(event)
+    {
+    var e = (!event) ? window.event : event;
+    //(document.getElementById('vava' + i).getAttribute("vstring"), document.getElementById('vava' + i).getAttribute("vavaval"))
+    //playstring(a,b)
+    //alert(e.target.getAttribute('vstring'));
+    playstring(e.target.getAttribute('vstring'),e.target.getAttribute('vavaval'))
+    }
+     
+     function initTouch(tid) {
+         if (touchon == null) {
+             
+             touchon = 1;
+             var touchzone = document.getElementById(tid);
+             touchzone.addEventListener("touchstart", evenwhen, false);
+         }
+     }
+    function playstring(sstring, strsound) {
+        document.getElementById('psound' + sstring).pause();
+        document.getElementById('psound' + sstring).src = '0' + strsound + '.mp3';
+        document.getElementById('psound' + sstring).play();
+        
+    }
+</script>
+<link rel="shortcut icon" type="image/png" href="/images/8notes-logo-sm2-fav.png"/>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+ 
+ <LINK href="/xs/x90_min.css" type=text/css rel=stylesheet>
+ 
+ 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1899416976695671",
+    enable_page_level_ads: true
+  });
+</script></head>
+<body>
+
+<div id=headstr ><div id=logo2><a title="home"   href=/><img  src=/images/8notes-logo-sm2.png  width="156" height="36"  border=0></a></div>
+<nav id="navnew" role="navigation" ><a href="#navnew" title="Show navigation">Show navigation</a><a href="#" title="Hide navigation">Hide navigation</a>
+<ul class="clearfix" style="margin-right:100px;z-index:99999;"><li><a title="instruments" href="/instruments/" aria-haspopup="true" ><span>Instruments</span></a>
+<ul style="z-index:99999;"><li><a href="/piano/">Piano</a></li><li><a href="/guitar/">Guitar</a></li><li><a href="/violin/">Violin</a></li><li><a href="/flute/">Flute</a></li><li><a href="/saxophone/">Saxophone</a></li><li><a href="/voice/">Voice</a></li><li><a href="/clarinet/">Clarinet</a></li><li><a href="/trumpet/">Trumpet</a></li><li><a href="/instruments/">Other Instruments</a></li></ul></li>
+<li><a title="styles" href=/styles/  aria-haspopup="true" ><span>Styles</span></a>
+<ul style="z-index:99999;">
+<li><a href="/all/classical/sheet_music/">Classical</a></li><li><a href="/jazz/">Jazz</a></li><li><a href="/traditional/">Traditional</a></li><li><a href="/all/rock_and_pop/sheet_music/">Rock and Pop</a></li><li><a href="/all/christmas/sheet_music/">Christmas</a></li><li><a href="/world/">World</a></li><li><a href="/styles/">Other Styles</a></li></ul></li>
+<li><a title="artists" href=/artists/ aria-haspopup="true" ><span>Artists</span></a>
+<ul style="z-index:99999;"><li><a href="/bach.asp">Bach</a></li><li><a href="/beethoven.asp">Beethoven</a></li><li><a href="/mozart.asp">Mozart</a></li><li><a href="/tchaikovsky.asp">Tchaikovsky</a></li><li><a href="/joplin.asp">Scott Joplin</a></li><li><a href="/chopin.asp">Chopin</a></li><li><a href="/artists/">Other Artists</a></li></ul></li> 
+<li><a href="/extras/" aria-haspopup="true" ><span>Resources</span></a><ul style="z-index:99999;"><li><a href="/guitar_tuner/">Guitar Tuner</a></li><li><a href="/guitar_chord_chart/">Guitar Chord Chart</a></li><li><a href="/guitar_scales/">Guitar Scales</a></li><li><a href="/metronome/">Metronome</a></li><li><a href="/piano_chord_chart">Piano Chord Chart</a></li><li><a href="/theory/">Music Theory</a></li><li><a  title="members" href=/members/>Members Pieces</a></li><li><a  title="forums" href=/f/>Forums</a></li><li><a href="/school/whats_new.asp">Latest Additions</a></li><li><a href="/extras/">More Resources...</a></li></ul></li>
+    <li class="mobonly"><a  title="guitar tuner" href=/guitar_tuner/>Guitar Tuner</a></li>
+    <li class="mobonly"><a  title="guitar chord chart" href=/guitar_chord_chart/>Guitar Chord Chart</a></li>
+    <li class="mobonly"><a  title="piano chord chart" href=/piano_chord_chart/>Piano Chord Chart</a></li>
+    <li class="mobonly"><a  title="metronome" href=/metronome/>Metronome</a></li>
+
+		<li><a class=loginbuttons    href="/subscriptions/">Subscribe</a></li><li><a class=loginbuttons  href=/members/register.asp  >Register</a></li><li><a class=loginbuttons    href=/members/login.asp?url=/guitar_chord_chart/am.asp>Login</a></li>
+</ul>
+</nav></div>
+<div id=darkgreenstrip><div style="vertical-align:middle;">
+<div id=tagtextn  >Am Guitar Chords Chart </div>
+<div id=searchdiv><form action=/inc/search_type.asp method=get name=searchform  >
+<input id=searchbox    placeholder="Search"  type=text   size=30 name=keyword><input id=searchgo type=image src=/images/sbut2.gif></form></div>
+    
+</div></div> 
+ <div style="padding-top:1px" > 
+
+<center> 
+<div class="greybox greybox-responsive" style="margin-top:10px" >
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle notes-responsive"
+     style="display:inline-block"
+     data-ad-client="ca-pub-1899416976695671"
+     data-ad-slot="8666309865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></center>
+
+<script language=javascript>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1281712-3']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</div>
+ 
+ 
+ <h1>Guitar Chords Chart</h1><BR>
+    
+<div style="width: 160px;float: right;margin-top: 150px;margin-right: 5px;height: 1500px" class="rightad"  >
+
+     
+ 
+  
+
+ <div class="rightad">
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 8notes responsive -->
+<ins class="adsbygoogle notes-responsiveb"
+     style="display:inline-block"
+     data-ad-client="ca-pub-1899416976695671"
+     data-ad-slot="8666309865"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+ </div>
+
+ </div>     
+
+ 
+<div style="width:80%;margin-left:auto;margin-right:auto;text-align:center"> <a class="alphabet2" href="C.asp">C</a><a class="alphabet2" href="Cx.asp">C#</a><a class="alphabet2" href="Db.asp">Db</a><a class="alphabet2" href="D.asp">D</a><a class="alphabet2" href="Dx.asp">D#</a><a class="alphabet2" href="Eb.asp">Eb</a><a class="alphabet2" href="E.asp">E</a><a class="alphabet2" href="F.asp">F</a><a class="alphabet2" href="Fx.asp">F#</a><a class="alphabet2" href="Gb.asp">Gb</a><a class="alphabet2" href="G.asp">G</a><a class="alphabet2" href="Gx.asp">G#</a><a class="alphabet2" href="Ab.asp">Ab</a><a class="alphabet2_selected alphabet2" href="A.asp">A</a><a class="alphabet2" href="Ax.asp">A#</a><a class="alphabet2" href="Bb.asp">Bb</a><a class="alphabet2" href="B.asp">B</a>
+<BR class="ca">
+ 
+<a id=showtext href=javascript:showhid() class=guitarx><img src="/images/green_arrow.png" height="12">Show All A Chords</a>
+     <div id=hid style="display:none">
+<a  class=guitarx href="javascript:hidehid()"><img src="/images/green_arrow.png" height="12">Hide Chord List</a>  
+
+  
+         
+<a     class=guitarx href="A.asp">A major</a><a style="background-color:#ffa100"   class=guitarx href="Am.asp">A minor</a><a    class=guitarx href="A7.asp">A 7</a><a    class=guitarx href="Am7.asp">A m7</a><a    class=guitarx href="Amaj7.asp">A maj7</a><a    class=guitarx href="Amx7.asp">A m#7 (mM7)</a><a    class=guitarx href="A7b5.asp">A 7b5</a><a    class=guitarx href="A7x5.asp">A 7#5</a><a    class=guitarx href="Am7b5.asp">A m7b5</a><a    class=guitarx href="A7b9.asp">A 7b9</a><a    class=guitarx href="Amajb5.asp">A b5</a><a    class=guitarx href="A5.asp">A 5 Power Chord</a><a    class=guitarx href="A6.asp">A 6</a><a    class=guitarx href="Am6.asp">A m6</a><a    class=guitarx href="A69.asp">A 69</a><a    class=guitarx href="A9.asp">A 9</a><a    class=guitarx href="A9b5.asp">A 9b5</a><a    class=guitarx href="A9x5.asp">A 9x5</a><a    class=guitarx href="Am9.asp">A m9</a><a    class=guitarx href="Amaj9.asp">A maj9</a><a    class=guitarx href="Aadd9.asp">A add9</a><a    class=guitarx href="A7x9.asp">A 7#9</a><a    class=guitarx href="A11.asp">A 11</a><a    class=guitarx href="Am11.asp">A m11</a><a    class=guitarx href="A13.asp">A 13</a><a    class=guitarx href="Amaj13.asp">A maj13</a><a    class=guitarx href="Asus2.asp">A sus2</a><a    class=guitarx href="Asus4.asp">A sus4</a><a    class=guitarx href="A7sus4.asp">A7 sus4</a><a    class=guitarx href="A9sus4.asp">A9 sus4</a><a    class=guitarx href="Adim.asp">A dim</a><a    class=guitarx href="Am7b5.asp">A half dim</a><a    class=guitarx href="Adim7.asp">A dim7</a><a    class=guitarx href="Aaug.asp">A aug</a><a    class=guitarx href="a_cx-bass.asp">A/C#</a> 
+<a    class=guitarx href="a_e-bass.asp">A/E</a> 
+<a    class=guitarx href="a_gx-bass.asp">A/G#</a> 
+<a    class=guitarx href="a_g-bass.asp">A/G</a> 
+<a    class=guitarx href="a_b-bass.asp">A/B</a> 
+</div><a  href=chord_finder.asp class=guitarx><img src="/images/green_arrow.png" height="12">Chord Finder</a></div><br class=ca>
+<h2>Guitar Chord: Am
+     <span style="color: #626262;font-size: 0.8em"><br>
+    <span class=alsoknown>Also known as</span> A  Minor <span class=alsoknown> and </span> &nbsp;A -
+          
+         
+         
+        </span>
+</h2>
+  <div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img   src=closed2.gif name=top1></td><td><img onmouseover="javascript:playstring('2','42')"  src=open2.gif name=top2></td><td><img onmouseover="javascript:playstring('3','50')"  src=blank2.gif name=top3></td><td><img onmouseover="javascript:playstring('4','55')"  src=blank2.gif name=top4></td><td><img onmouseover="javascript:playstring('5','58')"  src=blank2.gif name=top5></td><td><img onmouseover="javascript:playstring('6','62')"  src=open2.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top></td><td><img id="vava1"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava2"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava3"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava4"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava5"  onmouseover="javascript:playstring('5','58')" vavaval="58" vstring="5"  src=suare2_2f1.gif></td><td><img id="vava6"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava7"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava8"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava9"  onmouseover="javascript:playstring('3','50')" vavaval="50" vstring="3"  src=suare2_2f2.gif></td><td><img id="vava10"  onmouseover="javascript:playstring('4','55')" vavaval="55" vstring="4"  src=suare2_2f3.gif></td><td><img id="vava11"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava12"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava13"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava14"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava15"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava16"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava17"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava18"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava19"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava20"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava21"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava22"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava23"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava24"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+<tr><td>-</td><td>A</td><td>E</td><td>A</td><td>C</td><td>E</td></tr></table>
+    
+<br />
+<audio id=butnum1 src="/guitar_chord_chart/mp3/midi87.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut1 name=play0 href=javascript:playmain('butnum1')><img id=butnum1img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=87&chord_name=Am>Report Error</a><BR></div>
+<div class="greybox gbox" style="margin: 20px;padding:20px;float: left;height:250px;" style="background: url(/images/greustrip11.gif)">
+<script type="text/javascript"><!--
+    google_ad_client = "pub-1899416976695671";
+
+    google_ad_slot = "9073436021";
+    google_ad_width = 300;
+    google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> </div><div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img   src=closed2b.gif name=top1></td><td><img onmouseover="javascript:playstring('2','42')"  src=open2b.gif name=top2></td><td><img onmouseover="javascript:playstring('3','55')"  src=blank2b.gif name=top3></td><td><img onmouseover="javascript:playstring('4','58')"  src=blank2b.gif name=top4></td><td><img onmouseover="javascript:playstring('5','62')"  src=blank2b.gif name=top5></td><td><img onmouseover="javascript:playstring('6','67')"  src=blank2b.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top>Fret: 5</td><td><img id="vava25"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava26"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava27"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava28"  onmouseover="javascript:playstring('4','58')" vavaval="58" vstring="4"  src=suare2_2f1.gif></td><td><img id="vava29"  onmouseover="javascript:playstring('5','62')" vavaval="62" vstring="5"  src=suare2_2f1.gif></td><td><img id="vava30"  onmouseover="javascript:playstring('6','67')" vavaval="67" vstring="6"  src=suare2_2f1.gif></td></tr>
+    <tr><td><img id="vava31"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava32"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava33"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava34"    onmouseover="javascript:playstring('4','58')"  vavaval="58" vstring="4"   src=suare.gif></td><td><img id="vava35"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava36"    onmouseover="javascript:playstring('6','67')"  vavaval="67" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava37"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava38"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava39"  onmouseover="javascript:playstring('3','55')" vavaval="55" vstring="3"  src=suare2_2f3.gif></td><td><img id="vava40"    onmouseover="javascript:playstring('4','58')"  vavaval="58" vstring="4"   src=suare.gif></td><td><img id="vava41"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava42"    onmouseover="javascript:playstring('6','67')"  vavaval="67" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava43"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava44"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava45"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava46"    onmouseover="javascript:playstring('4','58')"  vavaval="58" vstring="4"   src=suare.gif></td><td><img id="vava47"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava48"    onmouseover="javascript:playstring('6','67')"  vavaval="67" vstring="6"   src=suare.gif></td></tr>
+<tr><td>-</td><td>A</td><td>A</td><td>C</td><td>E</td><td>A</td></tr></table>
+    
+<br />
+<audio id=butnum2 src="/guitar_chord_chart/mp3/midi90.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut2 name=play0 href=javascript:playmain('butnum2')><img id=butnum2img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=90&chord_name=Am>Report Error</a><BR></div>
+<div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img   src=closed2.gif name=top1></td><td><img onmouseover="javascript:playstring('2','45')"  src=blank2.gif name=top2></td><td><img onmouseover="javascript:playstring('3','50')"  src=blank2.gif name=top3></td><td><img onmouseover="javascript:playstring('4','55')"  src=blank2.gif name=top4></td><td><img onmouseover="javascript:playstring('5','58')"  src=blank2.gif name=top5></td><td><img onmouseover="javascript:playstring('6','62')"  src=open2.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top></td><td><img id="vava49"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava50"    onmouseover="javascript:playstring('2','45')"  vavaval="45" vstring="2"   src=suare.gif></td><td><img id="vava51"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava52"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava53"  onmouseover="javascript:playstring('5','58')" vavaval="58" vstring="5"  src=suare2_2f1.gif></td><td><img id="vava54"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava55"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava56"    onmouseover="javascript:playstring('2','45')"  vavaval="45" vstring="2"   src=suare.gif></td><td><img id="vava57"  onmouseover="javascript:playstring('3','50')" vavaval="50" vstring="3"  src=suare2_2f2.gif></td><td><img id="vava58"  onmouseover="javascript:playstring('4','55')" vavaval="55" vstring="4"  src=suare2_2f3.gif></td><td><img id="vava59"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava60"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava61"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava62"  onmouseover="javascript:playstring('2','45')" vavaval="45" vstring="2"  src=suare2_2f4.gif></td><td><img id="vava63"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava64"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava65"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava66"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava67"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava68"    onmouseover="javascript:playstring('2','45')"  vavaval="45" vstring="2"   src=suare.gif></td><td><img id="vava69"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava70"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava71"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava72"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+<tr><td>-</td><td>C</td><td>E</td><td>A</td><td>C</td><td>E</td></tr></table>
+    
+<br />
+<audio id=butnum3 src="/guitar_chord_chart/mp3/midi91.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut3 name=play0 href=javascript:playmain('butnum3')><img id=butnum3img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=91&chord_name=Am>Report Error</a><BR></div>
+<div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img   src=closed2.gif name=top1></td><td><img onmouseover="javascript:playstring('2','42')"  src=open2.gif name=top2></td><td><img onmouseover="javascript:playstring('3','50')"  src=blank2.gif name=top3></td><td><img onmouseover="javascript:playstring('4','55')"  src=blank2.gif name=top4></td><td><img onmouseover="javascript:playstring('5','58')"  src=blank2.gif name=top5></td><td><img onmouseover="javascript:playstring('6','62')"  src=open2.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top></td><td><img id="vava73"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava74"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava75"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava76"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava77"  onmouseover="javascript:playstring('5','58')" vavaval="58" vstring="5"  src=suare2_2f1.gif></td><td><img id="vava78"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava79"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava80"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava81"  onmouseover="javascript:playstring('3','50')" vavaval="50" vstring="3"  src=suare2_2f2.gif></td><td><img id="vava82"  onmouseover="javascript:playstring('4','55')" vavaval="55" vstring="4"  src=suare2_2f3.gif></td><td><img id="vava83"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava84"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava85"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava86"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava87"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava88"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava89"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava90"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava91"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava92"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava93"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava94"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava95"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava96"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+<tr><td>-</td><td>A</td><td>E</td><td>A</td><td>C</td><td>E</td></tr></table>
+    
+<br />
+<audio id=butnum4 src="/guitar_chord_chart/mp3/midi104.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut4 name=play0 href=javascript:playmain('butnum4')><img id=butnum4img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=104&chord_name=Am>Report Error</a><BR></div>
+<div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img onmouseover="javascript:playstring('1','37')"  src=open2.gif name=top1></td><td><img onmouseover="javascript:playstring('2','42')"  src=open2.gif name=top2></td><td><img onmouseover="javascript:playstring('3','50')"  src=blank2.gif name=top3></td><td><img onmouseover="javascript:playstring('4','55')"  src=blank2.gif name=top4></td><td><img onmouseover="javascript:playstring('5','58')"  src=blank2.gif name=top5></td><td><img onmouseover="javascript:playstring('6','62')"  src=open2.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top></td><td><img id="vava97"    onmouseover="javascript:playstring('1','37')"  vavaval="37" vstring="1"   src=suare.gif></td><td><img id="vava98"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava99"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava100"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava101"  onmouseover="javascript:playstring('5','58')" vavaval="58" vstring="5"  src=suare2_2f1.gif></td><td><img id="vava102"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava103"    onmouseover="javascript:playstring('1','37')"  vavaval="37" vstring="1"   src=suare.gif></td><td><img id="vava104"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava105"  onmouseover="javascript:playstring('3','50')" vavaval="50" vstring="3"  src=suare2_2f2.gif></td><td><img id="vava106"  onmouseover="javascript:playstring('4','55')" vavaval="55" vstring="4"  src=suare2_2f2.gif></td><td><img id="vava107"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava108"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava109"    onmouseover="javascript:playstring('1','37')"  vavaval="37" vstring="1"   src=suare.gif></td><td><img id="vava110"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava111"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava112"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava113"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava114"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava115"    onmouseover="javascript:playstring('1','37')"  vavaval="37" vstring="1"   src=suare.gif></td><td><img id="vava116"    onmouseover="javascript:playstring('2','42')"  vavaval="42" vstring="2"   src=suare.gif></td><td><img id="vava117"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava118"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava119"    onmouseover="javascript:playstring('5','58')"  vavaval="58" vstring="5"   src=suare.gif></td><td><img id="vava120"    onmouseover="javascript:playstring('6','62')"  vavaval="62" vstring="6"   src=suare.gif></td></tr>
+<tr><td>E</td><td>A</td><td>E</td><td>A</td><td>C</td><td>E</td></tr></table>
+    
+<br />
+<audio id=butnum5 src="/guitar_chord_chart/mp3/midi1278.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut5 name=play0 href=javascript:playmain('butnum5')><img id=butnum5img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=1278&chord_name=Am>Report Error</a><BR></div>
+<div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img   src=closed2b.gif name=top1></td><td><img onmouseover="javascript:playstring('2','45')"  src=blank2b.gif name=top2></td><td><img onmouseover="javascript:playstring('3','50')"  src=blank2b.gif name=top3></td><td><img onmouseover="javascript:playstring('4','55')"  src=blank2b.gif name=top4></td><td><img onmouseover="javascript:playstring('5','62')"  src=blank2b.gif name=top5></td><td><img   src=closed2b.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top>Fret: 2</td><td><img id="vava121"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava122"    onmouseover="javascript:playstring('2','45')"  vavaval="45" vstring="2"   src=suare.gif></td><td><img  src=suare2_2.gif></td><td><img  src=suare2_2.gif></td><td><img id="vava123"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava124"    onmouseover="javascript:playstring('6','-938')"  vavaval="-938" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava125"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img  src=suare2_2.gif></td><td><img id="vava126"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava127"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava128"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava129"    onmouseover="javascript:playstring('6','-938')"  vavaval="-938" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava130"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava131"    onmouseover="javascript:playstring('2','45')"  vavaval="45" vstring="2"   src=suare.gif></td><td><img id="vava132"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava133"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img id="vava134"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava135"    onmouseover="javascript:playstring('6','-938')"  vavaval="-938" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava136"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava137"    onmouseover="javascript:playstring('2','45')"  vavaval="45" vstring="2"   src=suare.gif></td><td><img id="vava138"    onmouseover="javascript:playstring('3','50')"  vavaval="50" vstring="3"   src=suare.gif></td><td><img id="vava139"    onmouseover="javascript:playstring('4','55')"  vavaval="55" vstring="4"   src=suare.gif></td><td><img  src=suare2_2.gif></td><td><img id="vava140"    onmouseover="javascript:playstring('6','-938')"  vavaval="-938" vstring="6"   src=suare.gif></td></tr>
+<tr><td>-</td><td>C</td><td>E</td><td>A</td><td>E</td><td>-</td></tr></table>
+    
+<br />
+<audio id=butnum6 src="/guitar_chord_chart/mp3/midi1496.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut6 name=play0 href=javascript:playmain('butnum6')><img id=butnum6img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=1496&chord_name=Am>Report Error</a><BR></div>
+<div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img onmouseover="javascript:playstring('1','42')"  src=blank2b.gif name=top1></td><td><img onmouseover="javascript:playstring('2','50')"  src=blank2b.gif name=top2></td><td><img onmouseover="javascript:playstring('3','55')"  src=blank2b.gif name=top3></td><td><img onmouseover="javascript:playstring('4','58')"  src=blank2b.gif name=top4></td><td><img onmouseover="javascript:playstring('5','62')"  src=blank2b.gif name=top5></td><td><img onmouseover="javascript:playstring('6','67')"  src=blank2b.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top>Fret: 5</td><td><img id="vava141"  onmouseover="javascript:playstring('1','42')" vavaval="42" vstring="1"  src=suare2_2f1.gif></td><td><img id="vava142"    onmouseover="javascript:playstring('2','50')"  vavaval="50" vstring="2"   src=suare.gif></td><td><img id="vava143"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava144"  onmouseover="javascript:playstring('4','58')" vavaval="58" vstring="4"  src=suare2_2f1.gif></td><td><img id="vava145"  onmouseover="javascript:playstring('5','62')" vavaval="62" vstring="5"  src=suare2_2f1.gif></td><td><img id="vava146"  onmouseover="javascript:playstring('6','67')" vavaval="67" vstring="6"  src=suare2_2f1.gif></td></tr>
+    <tr><td><img id="vava147"    onmouseover="javascript:playstring('1','42')"  vavaval="42" vstring="1"   src=suare.gif></td><td><img id="vava148"    onmouseover="javascript:playstring('2','50')"  vavaval="50" vstring="2"   src=suare.gif></td><td><img id="vava149"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava150"    onmouseover="javascript:playstring('4','58')"  vavaval="58" vstring="4"   src=suare.gif></td><td><img id="vava151"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava152"    onmouseover="javascript:playstring('6','67')"  vavaval="67" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava153"    onmouseover="javascript:playstring('1','42')"  vavaval="42" vstring="1"   src=suare.gif></td><td><img id="vava154"  onmouseover="javascript:playstring('2','50')" vavaval="50" vstring="2"  src=suare2_2f3.gif></td><td><img id="vava155"  onmouseover="javascript:playstring('3','55')" vavaval="55" vstring="3"  src=suare2_2f4.gif></td><td><img id="vava156"    onmouseover="javascript:playstring('4','58')"  vavaval="58" vstring="4"   src=suare.gif></td><td><img id="vava157"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava158"    onmouseover="javascript:playstring('6','67')"  vavaval="67" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava159"    onmouseover="javascript:playstring('1','42')"  vavaval="42" vstring="1"   src=suare.gif></td><td><img id="vava160"    onmouseover="javascript:playstring('2','50')"  vavaval="50" vstring="2"   src=suare.gif></td><td><img id="vava161"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava162"    onmouseover="javascript:playstring('4','58')"  vavaval="58" vstring="4"   src=suare.gif></td><td><img id="vava163"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava164"    onmouseover="javascript:playstring('6','67')"  vavaval="67" vstring="6"   src=suare.gif></td></tr>
+<tr><td>A</td><td>E</td><td>A</td><td>C</td><td>E</td><td>A</td></tr></table>
+    
+<br />
+<audio id=butnum7 src="/guitar_chord_chart/mp3/midi1758.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut7 name=play0 href=javascript:playmain('butnum7')><img id=butnum7img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=1758&chord_name=Am>Report Error</a><BR></div>
+<div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img   src=closed2b.gif name=top1></td><td><img   src=closed2b.gif name=top2></td><td><img onmouseover="javascript:playstring('3','55')"  src=blank2b.gif name=top3></td><td><img onmouseover="javascript:playstring('4','58')"  src=blank2b.gif name=top4></td><td><img onmouseover="javascript:playstring('5','62')"  src=blank2b.gif name=top5></td><td><img onmouseover="javascript:playstring('6','70')"  src=blank2b.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top>Fret: 5</td><td><img id="vava165"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava166"    onmouseover="javascript:playstring('2','-957')"  vavaval="-957" vstring="2"   src=suare.gif></td><td><img id="vava167"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava168"  onmouseover="javascript:playstring('4','58')" vavaval="58" vstring="4"  src=suare2_2f1.gif></td><td><img id="vava169"  onmouseover="javascript:playstring('5','62')" vavaval="62" vstring="5"  src=suare2_2f1.gif></td><td><img id="vava170"    onmouseover="javascript:playstring('6','70')"  vavaval="70" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava171"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava172"    onmouseover="javascript:playstring('2','-957')"  vavaval="-957" vstring="2"   src=suare.gif></td><td><img id="vava173"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava174"    onmouseover="javascript:playstring('4','58')"  vavaval="58" vstring="4"   src=suare.gif></td><td><img id="vava175"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava176"    onmouseover="javascript:playstring('6','70')"  vavaval="70" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava177"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava178"    onmouseover="javascript:playstring('2','-957')"  vavaval="-957" vstring="2"   src=suare.gif></td><td><img id="vava179"  onmouseover="javascript:playstring('3','55')" vavaval="55" vstring="3"  src=suare2_2f3.gif></td><td><img id="vava180"    onmouseover="javascript:playstring('4','58')"  vavaval="58" vstring="4"   src=suare.gif></td><td><img id="vava181"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava182"    onmouseover="javascript:playstring('6','70')"  vavaval="70" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava183"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava184"    onmouseover="javascript:playstring('2','-957')"  vavaval="-957" vstring="2"   src=suare.gif></td><td><img id="vava185"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava186"    onmouseover="javascript:playstring('4','58')"  vavaval="58" vstring="4"   src=suare.gif></td><td><img id="vava187"    onmouseover="javascript:playstring('5','62')"  vavaval="62" vstring="5"   src=suare.gif></td><td><img id="vava188"  onmouseover="javascript:playstring('6','70')" vavaval="70" vstring="6"  src=suare2_2f4.gif></td></tr>
+<tr><td>-</td><td>-</td><td>A</td><td>C</td><td>E</td><td>C</td></tr></table>
+    
+<br />
+<audio id=butnum8 src="/guitar_chord_chart/mp3/midi2029.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut8 name=play0 href=javascript:playmain('butnum8')><img id=butnum8img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=2029&chord_name=Am>Report Error</a><BR></div>
+<div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img   src=closed2b.gif name=top1></td><td><img onmouseover="javascript:playstring('2','50')"  src=blank2b.gif name=top2></td><td><img onmouseover="javascript:playstring('3','58')"  src=blank2b.gif name=top3></td><td><img onmouseover="javascript:playstring('4','62')"  src=blank2b.gif name=top4></td><td><img onmouseover="javascript:playstring('5','67')"  src=blank2b.gif name=top5></td><td><img   src=closed2b.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top>Fret: 7</td><td><img id="vava189"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava190"  onmouseover="javascript:playstring('2','50')" vavaval="50" vstring="2"  src=suare2_2f1.gif></td><td><img id="vava191"    onmouseover="javascript:playstring('3','58')"  vavaval="58" vstring="3"   src=suare.gif></td><td><img id="vava192"    onmouseover="javascript:playstring('4','62')"  vavaval="62" vstring="4"   src=suare.gif></td><td><img id="vava193"    onmouseover="javascript:playstring('5','67')"  vavaval="67" vstring="5"   src=suare.gif></td><td><img id="vava194"    onmouseover="javascript:playstring('6','-938')"  vavaval="-938" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava195"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava196"    onmouseover="javascript:playstring('2','50')"  vavaval="50" vstring="2"   src=suare.gif></td><td><img id="vava197"    onmouseover="javascript:playstring('3','58')"  vavaval="58" vstring="3"   src=suare.gif></td><td><img id="vava198"    onmouseover="javascript:playstring('4','62')"  vavaval="62" vstring="4"   src=suare.gif></td><td><img id="vava199"    onmouseover="javascript:playstring('5','67')"  vavaval="67" vstring="5"   src=suare.gif></td><td><img id="vava200"    onmouseover="javascript:playstring('6','-938')"  vavaval="-938" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava201"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava202"    onmouseover="javascript:playstring('2','50')"  vavaval="50" vstring="2"   src=suare.gif></td><td><img id="vava203"    onmouseover="javascript:playstring('3','58')"  vavaval="58" vstring="3"   src=suare.gif></td><td><img id="vava204"  onmouseover="javascript:playstring('4','62')" vavaval="62" vstring="4"  src=suare2_2f3.gif></td><td><img id="vava205"    onmouseover="javascript:playstring('5','67')"  vavaval="67" vstring="5"   src=suare.gif></td><td><img id="vava206"    onmouseover="javascript:playstring('6','-938')"  vavaval="-938" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava207"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava208"    onmouseover="javascript:playstring('2','50')"  vavaval="50" vstring="2"   src=suare.gif></td><td><img id="vava209"  onmouseover="javascript:playstring('3','58')" vavaval="58" vstring="3"  src=suare2_2f3.gif></td><td><img id="vava210"    onmouseover="javascript:playstring('4','62')"  vavaval="62" vstring="4"   src=suare.gif></td><td><img id="vava211"  onmouseover="javascript:playstring('5','67')" vavaval="67" vstring="5"  src=suare2_2f4.gif></td><td><img id="vava212"    onmouseover="javascript:playstring('6','-938')"  vavaval="-938" vstring="6"   src=suare.gif></td></tr>
+<tr><td>-</td><td>E</td><td>C</td><td>E</td><td>A</td><td>-</td></tr></table>
+    
+<br />
+<audio id=butnum9 src="/guitar_chord_chart/mp3/midi2309.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut9 name=play0 href=javascript:playmain('butnum9')><img id=butnum9img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=2309&chord_name=Am>Report Error</a><BR></div>
+<div class="greybox g2" style="background: url(/images/greustrip11.gif)"><table class=piano_table><tr><Td width=55>&nbsp;</td><td><img   src=closed2b.gif name=top1></td><td><img   src=closed2b.gif name=top2></td><td><img onmouseover="javascript:playstring('3','55')"  src=blank2b.gif name=top3></td><td><img onmouseover="javascript:playstring('4','62')"  src=blank2b.gif name=top4></td><td><img onmouseover="javascript:playstring('5','67')"  src=blank2b.gif name=top5></td><td><img onmouseover="javascript:playstring('6','70')"  src=blank2b.gif name=top6></td><td  rowspan=7> 
+</td></tr>
+
+    <tr><td nowrap rowspan=6 width=55 valign=top>Fret: 7</td><td><img id="vava213"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava214"    onmouseover="javascript:playstring('2','-957')"  vavaval="-957" vstring="2"   src=suare.gif></td><td><img id="vava215"  onmouseover="javascript:playstring('3','55')" vavaval="55" vstring="3"  src=suare2_2f1.gif></td><td><img id="vava216"    onmouseover="javascript:playstring('4','62')"  vavaval="62" vstring="4"   src=suare.gif></td><td><img id="vava217"    onmouseover="javascript:playstring('5','67')"  vavaval="67" vstring="5"   src=suare.gif></td><td><img id="vava218"    onmouseover="javascript:playstring('6','70')"  vavaval="70" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava219"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava220"    onmouseover="javascript:playstring('2','-957')"  vavaval="-957" vstring="2"   src=suare.gif></td><td><img id="vava221"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava222"    onmouseover="javascript:playstring('4','62')"  vavaval="62" vstring="4"   src=suare.gif></td><td><img id="vava223"    onmouseover="javascript:playstring('5','67')"  vavaval="67" vstring="5"   src=suare.gif></td><td><img id="vava224"  onmouseover="javascript:playstring('6','70')" vavaval="70" vstring="6"  src=suare2_2f2.gif></td></tr>
+    <tr><td><img id="vava225"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava226"    onmouseover="javascript:playstring('2','-957')"  vavaval="-957" vstring="2"   src=suare.gif></td><td><img id="vava227"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava228"  onmouseover="javascript:playstring('4','62')" vavaval="62" vstring="4"  src=suare2_2f3.gif></td><td><img id="vava229"    onmouseover="javascript:playstring('5','67')"  vavaval="67" vstring="5"   src=suare.gif></td><td><img id="vava230"    onmouseover="javascript:playstring('6','70')"  vavaval="70" vstring="6"   src=suare.gif></td></tr>
+    <tr><td><img id="vava231"    onmouseover="javascript:playstring('1','-962')"  vavaval="-962" vstring="1"   src=suare.gif></td><td><img id="vava232"    onmouseover="javascript:playstring('2','-957')"  vavaval="-957" vstring="2"   src=suare.gif></td><td><img id="vava233"    onmouseover="javascript:playstring('3','55')"  vavaval="55" vstring="3"   src=suare.gif></td><td><img id="vava234"    onmouseover="javascript:playstring('4','62')"  vavaval="62" vstring="4"   src=suare.gif></td><td><img id="vava235"  onmouseover="javascript:playstring('5','67')" vavaval="67" vstring="5"  src=suare2_2f4.gif></td><td><img id="vava236"    onmouseover="javascript:playstring('6','70')"  vavaval="70" vstring="6"   src=suare.gif></td></tr>
+<tr><td>-</td><td>-</td><td>A</td><td>E</td><td>A</td><td>C</td></tr></table>
+    
+<br />
+<audio id=butnum10 src="/guitar_chord_chart/mp3/midi2592.mp3"></audio>
+<a class="tooltip button button-primary button-small pbut" data-tip="Play" id=filebut10 name=play0 href=javascript:playmain('butnum10')><img id=butnum10img src=/images/play_icon.png /></a> 
+<a class=elink href=report_error.asp?chord_Id=2592&chord_name=Am>Report Error</a><BR></div>
+
+<div class="greybox g2"  style="width: 220px;" style="background: url(/images/greustrip11.gif)">
+ <b>Key</b><br /><BR />
+ <b>x</b> = don't play string<BR />
+ <b>o</b> = play open string<BR />
+ If the same fingering appears for more than one string, place the finger flat on the fingerboard as a 'bar', so all the strings can sound.<BR />
+        <br>
+        
+<img src="/images/green_arrow.png" height="12">See also the <a href=/piano_chord_chart/Am.asp>Am Piano Chord</a>
+    
+</div>
+    <div class="greybox g2"  style="width: 320px;" style="background: url(/images/greustrip11.gif)"><a border=0 href=https://www.youtube.com/user/davidbrucedotnet><img src=/images/youtube_channel_david_bruce.jpg style="height: 250px"></a></div>
+    <br class="ca" />
+    
+    
+    
+    
+    
+    <br /><BR><BR><BR> 
+<div class=rightad style="width: 85%;float: left">
+<h2>Other Chord & Scales Charts</h2>
+ 
+<A class=" greybox module newbox smaller" href="/guitar_scales/"><img  src=/images/icon_guitar_scales.gif ><BR>Guitar Scales</a>
+<A class=" greybox module newbox smaller" href="/ukulele_chord_chart/"><img  src=/images/icon_ukulele_chord_chart.gif   ><BR>Ukulele Chord Chart</a>
+<A class=" greybox module newbox smaller" href="/piano_chord_chart/"><img  src=/images/icon_chord_chart.gif   ><BR>Piano Chord Chart</a> 
+<A class=" greybox module newbox smaller" href="/piano_scales/"><img  src=/images/icon_piano_scales.gif   ><BR>Piano Scales</a>
+<A class=" greybox module newbox smaller" href="/flute/fingering/"><img  src=/images/icon_flute_fingering.png ><BR>Flute Fingering Chart</a>
+<A class=" greybox module newbox smaller" href="/recorder/fingering/"><img  src=/images/icon_recorder_fingering.png   ><BR>Recorder Fingering</a>
+<A class=" greybox module newbox smaller" href="/trumpet/note_chart.asp"><img  src=/images/icon_trumpet_fingering.png   ><BR>Trumpet Note Chart</a>
+</div>
+
+<br class="ca">
+
+<br> 
+<div id=botcontent>
+<div id=botcontenttop>
+<div class=botstuff>
+<h2>Help & Info</h2> 
+<div id="botlistleft">
+<ul id=botlist><li> <a HREF=/help/>Help</a></li><li><a href=/help/about.asp>About Us</a></li><li><a href=/tour.asp>Site Tour</a></li><li><a href=/help/contact.asp>Contact Us</a></li> <li><a href=/help/money_back_guarantee.asp>Money Back Guarantee</a></li> <li><a href=/help/privacy.asp>Privacy Policy</a></li><li><a href=/help/terms.asp>Terms</a></li></ul>
+</div>
+<div id="botlistright"><ul  id=botlist2 ><li><a href=/questionnaire.asp>Help Us Improve!</a></li><li><a href=/help/charity.asp>Charity</a></li><li><a href=/help/jobs.asp>Jobs</a></li></ul></div>
+<br><br class="ca"><div class="botstuff">8notes in other languages: <BR><ul id="flaglist"><li id="flag1"><a href="/tour.asp"></a></li><li id="flag2"><a href="/tour.asp"></a></li><li id="flag3"><a href="/tour_fr.asp"></a></li><li id="flag4"><a href="/tour_ch.asp"></a></li><li id="flag5"><a href="/tour_es.asp"></a></li><li id="flag6"><a href="/tour_de.asp"></a></li><li id="flag7"><a href="/tour_jp.asp"></a></li></ul></div>
+</div></div> 
+<div class="botline1"> </div>
+<div class="botline2"><div class="s" >&copy; 2000-2017 8notes.com</div></div></div>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.1/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.1/cookieconsent.min.js"></script>
+<script>window.cookieconsent.initialise({"palette":{"popup":{"background":"#000"},"button":{"background":"#f1d600"}},"theme":"edgeless","content":{"href":"https://www.8notes.com/help/privacy.asp"}});</script>
+
+    <audio id="psound1"></audio>
+    <audio id="psound2"></audio>
+    <audio id="psound3"></audio>
+    <audio id="psound4"></audio>
+    <audio id="psound5"></audio>
+    <audio id="psound6"></audio>
+     
+<script async src="guitar_chord_min.js"></script>
+</body>
+</html>

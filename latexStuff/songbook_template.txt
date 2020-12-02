@@ -1,0 +1,76 @@
+\documentclass[12pt,titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[chorded,nomeasures,noshading]{songs}
+\usepackage{setspace}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	textwidth=18cm,
+	left=15mm,
+	top=20mm
+}
+
+\usepackage{graphicx}
+
+\let\gtabBAK\gtab
+\newcommand{\sgtab}[3]{\scalebox{#1}{\gtabBAK{#2}{#3}}}
+\renewcommand*\gtab{\sgtab{2}}
+
+\versesep=5pt plus 2pt minus 2pt
+\renewcommand{\printchord}[1]{\bf\textit{#1}}
+\newcommand{\printchordtable}[1]{{\Huge \printchord{#1}}}
+
+\noversenumbers
+\nosongnumbers
+
+\newindex{mainidx}{mainidxfile}
+\newauthorindex{authidx}{authidxfile}
+\indexsongsas{mainidx}{\thepage}
+\indexsongsas{authidx}{\thepage}
+
+\renewcommand{\extendprelude}{
+	\showrefs{\it\normalsize\songauthors}\\
+	{\bfseries
+	\songcopyright
+	\par}
+}
+
+\songcolumns{2}
+
+\setlength{\sbarheight}{0pt}
+
+\extrafloats{1000}
+
+\author{AUTHOR_PLACEHOLDER}
+\title{TITLE_PLACEHOLDER}
+
+\begin{document}
+
+\maketitle
+
+\begin{songs}{mainidx,authidx}
+
+SONGS_PLACEHOLDER
+
+\end{songs}
+
+\cleardoublepage
+\phantom{}
+\vfill
+\begin{center}
+{\Huge Akordi}
+\end{center}
+\thispagestyle{empty}
+\vfill
+\phantom{}
+
+\pagebreak
+
+CHORDS_PLACEHOLDER
+
+
+\showindex[2]{Glavn}{mainidx}
+\showindex[2]{Aftori}{authidx}
+
+\end{document}

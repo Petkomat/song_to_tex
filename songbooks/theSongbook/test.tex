@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[chorded,nomeasures,noshading]{songs}
+\usepackage{setspace}
+
+
+\newindex{mainidx}{mfile}
+\newauthorindex{authidx}{afile}
+
+\begin{document}
+
+
+\begin{songs}{mainidx,authidx}
+	
+	\beginsong{A song}[by={Ana}]
+	\beginverse\singlespace
+	    \[H]I am Ana \[g#],
+	    la la la
+	\endverse	
+	\endsong
+	
+	\beginsong{Another one}[by={Ana}]
+	\beginverse\singlespace
+	\[H]I am still Ana \[g#],
+	la la la
+	\endverse	
+	\endsong
+	
+\end{songs}
+
+
+\showindex[1]{Songs index}{mainidx}
+\showindex[1]{Authors}{authidx}
+
+\end{document}
+

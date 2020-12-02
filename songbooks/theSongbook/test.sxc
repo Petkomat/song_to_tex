@@ -1,0 +1,14 @@
+\SB@iwrite {mainidx}{TITLE INDEX DATA FILE}
+\SB@iwrite {authidx}{AUTHOR INDEX DATA FILE}
+\SB@iwrite {mainidx}{A song}
+\SB@iwrite {mainidx}{1}
+\SB@iwrite {mainidx}{song1-1.1}
+\SB@iwrite {authidx}{Ana}
+\SB@iwrite {authidx}{1}
+\SB@iwrite {authidx}{song1-1.1}
+\SB@iwrite {mainidx}{Another one}
+\SB@iwrite {mainidx}{2}
+\SB@iwrite {mainidx}{song1-2.1}
+\SB@iwrite {authidx}{Ana}
+\SB@iwrite {authidx}{2}
+\SB@iwrite {authidx}{song1-2.1}
